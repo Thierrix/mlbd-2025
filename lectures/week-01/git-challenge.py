@@ -25,7 +25,8 @@ def person_b(df):
     dataframe: Data from the female students
     """
     # Code goes over here.
-
+    df = df[df.gender == 'female']
+    return df
     raise NotImplementedError()
 
 def person_c(df):
